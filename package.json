@@ -1,6 +1,6 @@
 {
   "name": "@johnnywu/pi-btw",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A 'by the way' side pane for pi: ask side questions beside the main conversation without touching it.",
   "homepage": "https://github.com/jwu/pi-btw#readme",
   "repository": {
