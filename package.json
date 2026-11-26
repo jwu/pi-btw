@@ -4,6 +4,14 @@
   "private": true,
   "type": "module",
   "description": "Side question pane beside the main Pi conversation (Pi 1.6.x fullscreen)",
-  "pi": { "extensions": ["./src/index.ts"] },
-  "scripts": { "typecheck": "npx -y -p typescript@5 tsc --noEmit -p .", "test": "node --test test/*.test.ts" }
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "scripts": {
+    "typecheck": "npx -y -p typescript@5 tsc --noEmit -p .",
+    "test": "node --test test/*.test.ts"
+  },
+  "license": "MIT"
 }

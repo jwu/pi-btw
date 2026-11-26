@@ -44,3 +44,7 @@ npm test           # unit tests
 npm run typecheck  # needs Pi's packages linked into node_modules/@earendil-works
 python3 test/drive.py script.json   # drive pi in a pseudo terminal (needs pyte)
 ```
+
+## License
+
+MIT
