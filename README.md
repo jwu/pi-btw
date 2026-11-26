@@ -9,7 +9,7 @@ Requires Pi 1.6.x in fullscreen mode (`tuiMode: "fullscreen"`).
 ## Install
 
 ```sh
-pi install /path/to/pi-btw
+pi install npm:@johnnywu/pi-btw
 ```
 
 ## Usage

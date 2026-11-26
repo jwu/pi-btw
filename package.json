@@ -1,17 +1,46 @@
 {
-  "name": "pi-btw",
-  "version": "0.0.1",
-  "private": true,
+  "name": "@johnnywu/pi-btw",
+  "version": "0.1.0",
+  "description": "A 'by the way' side pane for pi: ask side questions beside the main conversation without touching it.",
+  "homepage": "https://github.com/jwu/pi-btw#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwu/pi-btw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jwu/pi-btw/issues"
+  },
   "type": "module",
-  "description": "Side question pane beside the main Pi conversation (Pi 1.6.x fullscreen)",
-  "pi": {
-    "extensions": [
-      "./src/index.ts"
-    ]
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-coding-agent",
+    "extension",
+    "btw",
+    "side-question",
+    "split-pane"
+  ],
+  "author": "jwu",
+  "license": "MIT",
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=22.19.0"
   },
   "scripts": {
     "typecheck": "npx -y -p typescript@5 tsc --noEmit -p .",
     "test": "node --test test/*.test.ts"
   },
-  "license": "MIT"
+  "publishConfig": {
+    "access": "public"
+  },
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  }
 }
