@@ -40,10 +40,13 @@ btw reaches into a few Pi 1.6.x internals (the alt-screen layout root, stack ent
 ## Development
 
 ```sh
-npm test           # unit tests
-npm run typecheck  # needs Pi's packages linked into node_modules/@earendil-works
+bun install
+bun run test        # unit tests
+bun run typecheck
 python3 test/drive.py script.json   # drive pi in a pseudo terminal (needs pyte)
 ```
+
+Commits follow [Conventional Commits](https://www.conventionalcommits.org) (checked by a commit-msg hook). `bun run release` publishes a new version with semantic-release: `fix:` bumps the patch, `feat:` the minor, and `feat!:` / `BREAKING CHANGE` the major version.
 
 ## License
 
